@@ -135,29 +135,6 @@ In summary, the high degree of consistency between structures from completely di
 
 
 
-
-
-
-
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 =======
 Work details are available in the practical modeling.ppt file
 >>>>>>> b1b59ffb0213c79fa891b3a7abfec44bc7468979
