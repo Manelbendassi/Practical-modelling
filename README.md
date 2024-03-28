@@ -34,8 +34,11 @@ Step1: Identification and Selection of Template structure
  E-Value: the number of alignments expected by chance with the calculated score or better. The expect value is the default sorting metric; for  significant alignments the E value should be very close to zero.
  
 Template quality:  the template should  has been experimentally determined and has a high resolution, resolution should be between 1A to 3A.
+
  Conserved regions: choose the template with conserved regions  that align well with the target protein sequence. This will help ensure that the  model accurately captures the structural features of the protein
+ 
 Phylogenetic similarity between template and target sequences
+
 Environmental factors such as pH, solvent type and existence of bound ligand…
 
  The template was chosen based on the prameters mentioned before
