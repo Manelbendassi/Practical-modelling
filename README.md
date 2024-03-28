@@ -32,6 +32,7 @@ Step1: Identification and Selection of Template structure
  Query Coverage: refers to the fraction of a query sequence that is aligned to a database sequence in a sequence alignment. It represents the   percentage of the query sequence that is covered by the alignment with the database sequence. A higher query cover indicates a more complete   alignment between the query and database sequences.
  
  E-Value: the number of alignments expected by chance with the calculated score or better. The expect value is the default sorting metric; for  significant alignments the E value should be very close to zero.
+ 
 Template quality:  the template should  has been experimentally determined and has a high resolution, resolution should be between 1A to 3A.
  Conserved regions: choose the template with conserved regions  that align well with the target protein sequence. This will help ensure that the  model accurately captures the structural features of the protein
 Phylogenetic similarity between template and target sequences
