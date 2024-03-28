@@ -67,6 +67,11 @@ Step 3: Building the homology model
  1.Download the 3D structure of the template sequence from PDB
  
  2.Creating the input file: 
+
+ PDB file for 3D structures of the template: water molecules are manually removed
+ 
+Script :
+
  
     PDB file for 3D structures of the template: water molecules are manually removed
     Script 
