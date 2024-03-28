@@ -131,7 +131,7 @@ Step 4 :Quality assessment of the homology model
  
  2nd tool : Prosa to check the local quality of the model
  
- Prosa Results: vailable in the file 'Practical modeling.pptx'
+ Prosa Results: Available in the file 'Practical modeling.pptx'
  
  This plot of local model quality, shows the energy of each amino acid residue in the protein chain is plotted along the x-axis according to its  position (i) in the sequence.
  Lower energy scores typically indicate more favorable and stable conformations for the residue.
