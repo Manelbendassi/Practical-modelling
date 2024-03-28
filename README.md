@@ -145,6 +145,7 @@ Step 4 :Quality assessment of the homology model
  Method : Root Mean Square Deviation (RMSD)
  
  The results and interpretation are available in the file 'Practical modeling.pptx'
+ 
  The alignment results suggest a good match between the 3D model and the experimentally solved structure. The high score and low RMSD values  indicate a high degree of similarity between the two structures. 
  This shows how accurate it is the theoretical structure compared to the experimentally determined structure, this can solve the problem of the  gap between the number of discovered sequences and the number of 
  3D structures.
