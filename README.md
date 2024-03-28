@@ -56,12 +56,14 @@ Environmental factors such as pH, solvent type and existence of bound ligand…
 Step 2: Pairwise alignment between the target and the template sequences 
 
  Tool used: EMBOSS Needle
+ 
  Pairwise alignment is done in order to determine the level of similarity between the two sequences, by aligning the sequences, we can identify  regions of high sequence identity and similarity, which can indicate conserved structural elements and functional domains. This information can then be used to guide the modeling of the target protein's 3D structure based on the template structure.
  pairwise alignment can help identify potential errors or gaps in the alignment, which may need to be addressed to improve the accuracy of the   predicted 3D structure.
 
 Step 3: Building the homology model
 
  Tool used :Modeller
+ 
  1.Download the 3D structure of the template sequence from PDB
  
  2.Creating the input file: 
@@ -90,6 +92,7 @@ Step 3: Building the homology model
     print("Modeling completed!")
 
  Alignment file: pir format
+ 
  The fasta file alignment extension is converted to the pir extension manually
  
  Execute the script by using the command mod 10.5 script name.py
@@ -104,12 +107,14 @@ Step 4 :Quality assessment of the homology model
  1.Selection of the best model:
  
  The selection is made according to the DOPE and GA341 scores
+ 
  Lowest DOPE score: -53639.77734
  Highest GA341 score: 1
  
  2.Evaluation of the model's quality
  
  1st  tool :Ramachandran plots  to check the stereochemical quality
+ 
  Phi (φ) and Psi (ψ) Angles: These angles represent the rotation around specific bonds in the protein backbone. 
  The Ramachandran plot depicts the allowed regions for these angles, which correspond to sterically unhindered and energetically stable protein   conformations.
  
@@ -134,7 +139,9 @@ Step 4 :Quality assessment of the homology model
  Method : Root Mean Square Deviation (RMSD)
  The results and interpretation are available in the file 'Practical modeling.pptx'
  The alignment results suggest a good match between the 3D model and the experimentally solved structure. The high score and low RMSD values  indicate a high degree of similarity between the two structures. 
- This shows how accurate it is the theoretical structure compared to the experimentally determined structure, this can solve the problem of the  gap between the number of discovered sequences and the number of 3D structures.
+ This shows how accurate it is the theoretical structure compared to the experimentally determined structure, this can solve the problem of the  gap between the number of discovered sequences and the number of 
+ 3D structures.
+ 
  Adopting the theoretical method can save time, money, and produce high quality results.
 
  Step 6: Alignment of the  template (1KXQ) with the experimentally solved structure (1AQM)
